@@ -28,7 +28,8 @@ const Profile = () => {
             <p><strong>Class: </strong>D21CNPM04</p>
             <p><strong>Email: </strong>anhhuaan@gmail.com</p>
             <p><strong>Phone: </strong>0985889474</p>
-            <p><strong>Github: </strong><a href="https://github.com/CongHuaan/IoT" target="_blank" rel="noopener noreferrer">https://github.com/CongHuaan/IoT</a></p>
+            <p><strong>Github BE: </strong><a href="https://github.com/CongHuaan/IoT" target="_blank" rel="noopener noreferrer">https://github.com/CongHuaan/IoT</a></p>
+            <p><strong>Github FE: </strong><a href="https://github.com/CongHuaan/frontEndIoT" target="_blank" rel="noopener noreferrer">https://github.com/CongHuaan/frontEndIoT</a></p>
             <p><strong>PDF: </strong><a href="https://drive.google.com/file/d/1MMFkZxNsw3i8MauNIGArU4Dh_B3Hwdy7/view?usp=sharing" target="_blank" rel="noopener noreferrer">Báo cáo</a></p>
             <p><strong>Apidoc: </strong><a href="http://localhost:3001/api#/" target="_blank" rel="noopener noreferrer">Swagger API IoT</a></p>
           </CRow>

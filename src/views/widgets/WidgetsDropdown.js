@@ -82,7 +82,7 @@ const WidgetsDropdown = () => {
         </div>
       </CCol>
       <CCol sm={6} lg={4}>
-        <div style={widgetStyle(sensorData.temperature, 0, 40, 'rgb(255, 100, 34)')}>
+        <div style={widgetStyle(sensorData.temperature, 0, 45, 'rgb(255, 100, 34)')}>
           <FontAwesomeIcon icon={faThermometerHalf} style={iconStyle} />
           <p style={{ ...textStyle, fontSize: '1.5rem' }}>Nhiệt độ</p>
           <p style={{ ...textStyle, fontSize: '1.5rem' }}>{parseInt(sensorData.temperature, 10)}°C</p>
@@ -95,6 +95,34 @@ const WidgetsDropdown = () => {
           <p style={{ ...textStyle, fontSize: '1.5rem' }}>{sensorData.light} LUX</p>
         </div>
       </CCol>
+      {/* <CCol sm={6} lg={3}>
+        <div style={widgetStyle(sensorData.humidity, 0, 100, 'rgb(0, 123, 255)')}>
+          <FontAwesomeIcon icon={faTint} style={iconStyle} />
+          <p style={{ ...textStyle, fontSize: '1.5rem' }}>Độ ẩm</p>
+          <p style={{ ...textStyle, fontSize: '1.5rem' }}>{sensorData.humidity}%</p>
+        </div>
+      </CCol>
+      <CCol sm={6} lg={3}>
+        <div style={widgetStyle(sensorData.temperature, 0, 45, 'rgb(255, 100, 34)')}>
+          <FontAwesomeIcon icon={faThermometerHalf} style={iconStyle} />
+          <p style={{ ...textStyle, fontSize: '1.5rem' }}>Nhiệt độ</p>
+          <p style={{ ...textStyle, fontSize: '1.5rem' }}>{parseInt(sensorData.temperature, 10)}°C</p>
+        </div>
+      </CCol>
+      <CCol sm={6} lg={3}>
+        <div style={widgetStyle(sensorData.light, 0, 1024, 'rgb(255, 190, 0)')}>
+          <FontAwesomeIcon icon={faSun} style={iconStyle} />
+          <p style={{ ...textStyle, fontSize: '1.5rem' }}>Ánh sáng</p>
+          <p style={{ ...textStyle, fontSize: '1.5rem' }}>{sensorData.light} LUX</p>
+        </div>
+      </CCol>
+      <CCol sm={6} lg={3}>
+        <div style={widgetStyle(sensorData.light, 0, 1024, 'rgb(255, 190, 0)')}>
+          <FontAwesomeIcon icon={faSun} style={iconStyle} />
+          <p style={{ ...textStyle, fontSize: '1.5rem' }}>Ánh sáng</p>
+          <p style={{ ...textStyle, fontSize: '1.5rem' }}>{sensorData.light} LUX</p>
+        </div>
+      </CCol> */}
     </CRow>
   );
 };
